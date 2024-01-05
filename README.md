@@ -1,39 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+# Clean-Energy
+🚨**Required** 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+*replace the **PROJECT NAME** header with your project's name*
+- No doubt that the world suffers under the heavy burden of the the dirty energy and its side effects causing some parts of the world to experince unusual weather change. The Global Warming is just a sign of ho much damage we as investors have done by using the dirty energy resources including oil and coal.
+- Clean-Energy sources offers the alternatives towards a world powered by clean and renewable energy. The sources of the clean energy are at the reach of every country and it application fieds are increasing tremdously. Enjoy reading and inform yourself about the sources available to the whole world and take a deep dive into each source and its components, application fields, the problem it solves and challenges by implementing.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+following is TODO
+- Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
 
-`http_server`
+## Live Site
+🚨**Required** 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Include a link to deployed project (typically a GitHub Page on  github.io)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Repository
+🚨**Required** 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Include a Link to the GitHub repository
 
-To log into the Heroku toolbelt CLI:
+## Author
+🚨**Required** 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Mazen Al Ali 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- [PROJECT NAME](#project-name)
+  * [Live Site](#live-site)
+  * [Repository](#repository)
+  * [Author](#author)
 
----
 
-Happy coding!
+  # UX
+🚀 **merit & beyond**
+
+UX and why you choose or write what I did is still TODO
+
+## Target Audience
+🚀 **merit & beyond**
+
+## Project Goals
+🚀 **merit & beyond**
+
+1- Clear and immersive overview on the clean energy resources.
+2- Applications fields along promlems solved by clean Nergy resouces
+3- Challenges to each resources and barriers prevents from implementing.
+
+
+## User Stories
+🚀 **merit & beyond**
+
+This section lists outs as a X I want Y, so I can Z format. It helps drive out the features you will build.
+
+You can have many kinds of users so feel free to have one section or the subsections listed or more
+
+### Site User Stories
+🚀 **merit & beyond**
+
+### Website Owner Stories
+🚀 **merit & beyond**
+
+### Developer Stories
+🚀 **merit & beyond**
+
+## Design Choices Stories
+🚀 **merit & beyond**
