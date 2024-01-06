@@ -1,4 +1,4 @@
-/*Overriding the default browswer settings*/
+/*Overriding the default browswer settings from very generic using Astric */
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +6,24 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 200vh;
+    background-color:coral;
+    /*display to flex and direction is column to let elements shows under each other*/
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     background-color: aquamarine;
 }
 
+/*main content should make use of most space avalable on the behalf of other elements*/
 main{
     background-color: blanchedalmond;
+    /*flex shorthand : flex-grow flex-shrink flex-basis*/
+    flex:1 0 auto
+
 }
 footer{
     background-color: yellowgreen;
