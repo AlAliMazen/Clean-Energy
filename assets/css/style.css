@@ -20,6 +20,31 @@ header{
     /*this will make the header section always at the tope*/
     position:fixed;
     z-index: 999;
+    box-shadow: 0 5px 5px rgb(255, 163, 68);
+    width: 100%;
+}
+header>a>img{
+    width: 85px;
+    height: 85px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menubar{
+    letter-spacing: 2px;
+    font-size: 110%;
+    list-style-type: none;
+}
+#menubar li{
+    margin-bottom: 0.5em;
+}
+#menubar >li a{
+    color: rgb(97,192,77);
+}
+.active-page{
+    border-bottom: 2px solid RGB(255,163,68);
 }
 
 
