@@ -8,7 +8,6 @@
 # Clean-Energy
 🚨**Required** 
 
-*replace the **PROJECT NAME** header with your project's name*
 - No doubt that the world suffers under the heavy burden of the the dirty energy and its side effects causing some parts of the world to experince unusual weather change. The Global Warming is just a sign of ho much damage we as investors have done by using the dirty energy resources including oil and coal.
 - Clean-Energy sources offers the alternatives towards a world powered by clean and renewable energy. The sources of the clean energy are at the reach of every country and it application fieds are increasing tremdously. Enjoy reading and inform yourself about the sources available to the whole world and take a deep dive into each source and its components, application fields, the problem it solves and challenges by implementing.
 
