@@ -22,6 +22,9 @@ header{
     z-index: 999;
     box-shadow: 0 5px 5px rgb(255, 163, 68);
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header>a>img{
     width: 85px;
@@ -40,8 +43,19 @@ nav{
     padding-left: 10px;
     /*default display for mobile devices*/
     display: none;
+    top: 100%; /*let the nav starts at the bottom of its parent**/
 }
-
+/*dropdown of menubar*/
+#nav-menu-toggle:checked~nav{
+    display: block;
+}
+/*hid the check box since we don't need it to be shown**/
+#nav-menu-toggle{
+    display: none;
+}
+.nav-menu-label{
+    font-size: 2em;
+}
 #menubar{
     letter-spacing: 2px;
     font-size: 110%;
