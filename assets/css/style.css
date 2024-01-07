@@ -86,6 +86,7 @@ main{
     background-color: blanchedalmond;
     /*flex shorthand : flex-grow flex-shrink flex-basis*/
     flex:1 0 auto;
+    margin-top: 93px;
 
 }
 /*Styling footer*/
