@@ -83,6 +83,21 @@ main{
     flex:1 0 auto
 
 }
+/*Styling footer*/
 footer{
-    background-color: yellowgreen;
+    /*Same background colr as header ~ it may havedifferent color in future styling*/
+    background-color: #ffffff;
+}
+#social-media-links{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    font-size: 250%;
+    list-style-type: none;
+}
+
+#social-media-links i{
+    margin: 10px 10px;
+    color: rgb(97,192,77);
 }
