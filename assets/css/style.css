@@ -58,7 +58,12 @@ nav{
     display: none;
 }
 .nav-menu-label{
-    font-size: 2em;
+    font-size: 250%;
+}
+
+.nav-menu-label i{
+    color: rgb(97,192,77);
+    padding: 10px 10px;
 }
 #menubar{
     letter-spacing: 2px;
