@@ -135,3 +135,21 @@ footer{
     }
 
 }
+
+@media screen and (min-width: 992px) {
+    header{
+        box-shadow: none;
+    }
+    #menubar li{
+        padding: 0.5rem 1.5rem;
+    }
+    li a{
+        vertical-align: -webkit-baseline-middle;
+    }
+    li:hover{
+        background-color: rgb(255 163 68 );
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border: 2px solid rgb(0 148 168) ; 
+    }
+}
