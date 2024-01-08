@@ -122,4 +122,14 @@ I commonly use VS Code as my choice of ID. It is the same as the Codeanywhere wi
 I managed to clone my GitHub Repo for my project following the steps listed below:
 
  1. Open VS Code IDE and the Interface will show an option for "Cloning a repository"
- 2. From GitHub Repository page, click on the Code page and copy the http URL
+ ![img.png](assets/README-imgs/vs-code-start-page.png)
+
+ 2. From GitHub Repository page, click on the Code page and copy the https URL to the clipboard
+ ![img.png](assets/README-imgs/github-clean-enery-repo.png)
+ 
+ 3. Paste the URL of the Repo in the VS-Code after clicking on the **Clone Git Repositoy** option as in the following screen shot:
+ ![img.png](assets/README-imgs/vs-code-cloning-repos-url.png)
+
+ 4. On the left hand side of the VS-Code, you will see the GitHub Fork Icon has synchronised the files and brought them to your local machine. It will ask you to choose a **local repository** to save the cloned files/project.
+
+ 5. Choose a disred direcotry to save the project and the cloned files will show up in the VS-Code
