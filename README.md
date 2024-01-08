@@ -17,12 +17,12 @@ following is TODO
 ## Live Site
 🚨**Required** 
 
-- Include a link to deployed project (typically a GitHub Page on  github.io)
+- live overview can be shown when cllicking [Clean Energy](https://alalimazen.github.io/Clean-Energy/)
 
 ## Repository
 🚨**Required** 
 
-- Include a Link to the GitHub repository
+- Clean Energy website Reposiory is availbe on GitHub under [Clean-Energy](https://github.com/AlAliMazen/Clean-Energy)
 
 ## Author
 🚨**Required** 
@@ -69,3 +69,57 @@ You can have many kinds of users so feel free to have one section or the subsect
 
 ## Design Choices Stories
 🚀 **merit & beyond**
+
+### Colors
+🚀 **merit & beyond**
+
+- Discuss your color pallet choices and how it ties into users' emotions or target audience.
+- include a screenshot of your pallet using a tool like [coolors.co](https://coolors.co/)
+
+### Typography
+🚀 **merit & beyond**
+
+- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
+- Clarity of letters, putting a capital i next to a lower case L is always a good test
+- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+
+### Imagery
+🚀 **merit & beyond**
+
+Explain why you used certain icons and images on your site & tie it back into your target audience
+
+### Animations and Transitions
+🚀 **merit & beyond**
+
+- discuss any special animations or transitions you've included 
+- special hover state effects
+
+## Site Structure
+🚀 **merit & beyond**
+
+Talk about if the site is 1 page vs multiple pages. Say what loads by default & how to get access to other pages/sections.
+
+
+
+# Deployment
+🚨**Required** 
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
+
+-Enumerate steps and use screenshots to make the instructions are clear.
+
+You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
+
+## Deploy to GitHub Pages
+🚨**Required** 
+
+Write out steps you would take an
+
+## Deploy locally
+
+I commonly use VS Code as my choice of ID. It is the same as the Codeanywhere with the difference that the later runs online using docker im background. 
+
+I managed to clone my GitHub Repo for my project following the steps listed below:
+
+ 1. Open VS Code IDE and the Interface will show an option for "Cloning a repository"
+ 2. From GitHub Repository page, click on the Code page and copy the http URL
