@@ -17,6 +17,13 @@ body{
     flex-direction: column;
 }
 
+/*unifying header and paragraphs fonts, color letter spacing*/
+h1, h2, h3,h4, p{
+    font-family: 'Gayathri', sans-serif;
+    letter-spacing: 2px;
+    color: greenyellow;
+}
+
 header{
     background-color:#ffffff;
     padding: 0 1rem;
@@ -77,7 +84,7 @@ nav{
     color: rgb(97,192,77);
 }
 .active-page{
-    border-bottom: 2px solid RGB(255,163,68);
+    border-bottom: 2px solid rgb(255 163 68);
 }
 
 
@@ -97,6 +104,24 @@ main{
     background-color: lightblue;
     /*short hand syntas path, style, horizonal and vertical / adapt automatically to content*/
     background: url(../images/solarpanel-windmils-snow.jpg) no-repeat center center/cover;
+    /*using positon as relative we can position all elements inside this element at defined cordinates*/
+    position: relative;
+}
+
+#home-pg-cover-txt{
+    background-color:rgb(0, 148, 168, .6);
+    text-align: center;
+    width: 90%;
+    /*all text inside this ID must be relative to the parent element and positoned center*/
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#home-pg-cover-txt > h1, #home-pg-cover-txt > p{
+    font-size: 140%;
+    font-weight: 800;
+    padding: 10px;
+    color:rgb(255, 163, 68);
 }
 
 /*Styling footer*/
@@ -163,4 +188,13 @@ footer{
         border: 1px solid rgb(0 148 168) ; 
     }
    
+    #home-pg-cover-txt{
+        background-color:rgb(0, 148, 168, .6);
+        text-align: center;
+        width: 60%;
+        /*all text inside this ID must be relative to the parent element and positoned center*/
+        position: absolute;
+        bottom: 25%;
+        left: 20%;
+    }
 }
