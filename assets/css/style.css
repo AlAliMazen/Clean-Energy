@@ -1,6 +1,21 @@
 /*Importing Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
 
+/*
+choosing color of high contrast and go along with logo
+link to the pallet : https://coolors.co/palette/00296b-003f88-00509d-fdc500-ffd500 
+
+light Yello : #ffd500
+Darker Yello: #fdc500
+Semi-dark-blue :# 00509d
+darker blue: #003f88
+darkest blue : #00296b
+
+
+
+*/
+
+
 /*Overriding the default browswer settings from very generic using Astric */
 *{
     margin: 0;
@@ -11,7 +26,7 @@
 
 body{
     min-height: 200vh;
-    background-color:coral;
+    background-color:#ffd500;
     /*display to flex and direction is column to let elements shows under each other*/
     display: flex;
     flex-direction: column;
@@ -21,7 +36,7 @@ body{
 h1, h2, h3,h4, p{
     font-family: 'Gayathri', sans-serif;
     letter-spacing: 2px;
-    color: greenyellow;
+    color: #00296b;
 }
 
 header{
@@ -30,7 +45,7 @@ header{
     /*this will make the header section always at the tope*/
     position:fixed;
     z-index: 999;
-    box-shadow: 0 5px 5px rgb(255, 163, 68);
+    box-shadow: 0 5px 5px #fdc500;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -69,7 +84,7 @@ nav{
 }
 
 .nav-menu-label i{
-    color: rgb(97,192,77);
+    color: #00296b;
     padding: 10px 10px;
 }
 #menubar{
@@ -81,10 +96,10 @@ nav{
     margin-bottom: 0.5em;
 }
 #menubar >li a{
-    color: rgb(97,192,77);
+    color:  #00296b;
 }
 .active-page{
-    border-bottom: 2px solid rgb(255 163 68);
+    border-bottom: 2px solid#fdc500;
 }
 
 
@@ -109,7 +124,7 @@ main{
 }
 
 #home-pg-cover-txt{
-    background-color:rgb(0, 148, 168, .6);
+    background-color:rgb(255,255,255, .7);
     text-align: center;
     width: 90%;
     /*all text inside this ID must be relative to the parent element and positoned center*/
@@ -121,7 +136,7 @@ main{
     font-size: 140%;
     font-weight: 800;
     padding: 10px;
-    color:rgb(255, 163, 68);
+    color:#00296b;
 }
 
 /*Styling footer*/
@@ -182,14 +197,11 @@ footer{
         vertical-align: middle;
     }
     li:hover{
-        background-color: rgb(255 163 68 );
-        border-top-right-radius: 10%;
-        border-bottom-left-radius: 10%;
-        border: 1px solid rgb(0 148 168) ; 
+        background-color: #fdc500;
     }
    
     #home-pg-cover-txt{
-        background-color:rgb(0, 148, 168, .6);
+        background-color: rgb(255,255,255, .7);
         text-align: center;
         width: 60%;
         /*all text inside this ID must be relative to the parent element and positoned center*/
