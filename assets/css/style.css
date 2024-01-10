@@ -268,6 +268,21 @@ footer{
     color: #00296b
 }
 
+/*Media Queries for old phone i.e. samller screens mx-width 360*/
+@media screen and(max-width:360) {
+    .solar-en-circle, .wind-en-circle, .hydropower-en-circle {
+        border: 5px solid #fdc500;
+        padding: 1px;
+        padding-top: 12px;
+    }
+
+    #reasons-appliction-fields {
+        margin: 30px auto;
+    }
+    #green-enery-video {
+        margin: 36px auto;
+    }
+}
 /*Media Queryies for larger screens iPad and onward*/
 @media screen and (min-width:768px) {
     /*starting with navigation*/
