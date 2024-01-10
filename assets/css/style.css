@@ -11,8 +11,6 @@ Semi-dark-blue :#00509d
 darker blue: #003f88
 darkest blue : #00296b
 
-
-
 */
 
 
@@ -45,7 +43,7 @@ header{
     /*this will make the header section always at the tope*/
     position:fixed;
     z-index: 999;
-    box-shadow: 0 5px 5px #fdc500;
+    box-shadow: 0 5px 5px #ffd500;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -153,7 +151,6 @@ main{
    margin: 5px auto; 
    display: flex;
    flex-direction: column;
-   border: 1px solid red;
 }
 
 .title-center{
@@ -210,7 +207,6 @@ main{
 
 /*Reasong and application fields*/
 #reasons-appliction-fields{
-    border: 1px solid green;
     margin: 5px auto;
     width: 95%;
     height: 500px;
@@ -225,7 +221,6 @@ main{
     width: inherit;
     height: 95%;
     margin: 5px auto;
-    border: 1px solid red;
 }
 .reasons-and-applications
 {
@@ -247,7 +242,6 @@ main{
     height: 450px;
     margin: 5px auto;
     text-align: center;
-    border: 1px solid #00509d;
 }
 
 #green-enery-video div > iframe{
@@ -271,7 +265,7 @@ footer{
 
 #social-media-links i{
     margin: 10px 10px;
-    color: rgb(97,192,77);
+    color: #00296b
 }
 
 /*Media Queryies for larger screens iPad and onward*/
@@ -436,5 +430,12 @@ footer{
         border: 5px solid #fdc500;
         width: 95%;
         height: 477px;
+    }
+
+    #social-media-links i:hover{
+        border-bottom: 1px solid #00296b;
+    }
+    .fa-square-instagram:hover{
+        color: red;
     }
 }
