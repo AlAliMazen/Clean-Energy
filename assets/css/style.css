@@ -25,7 +25,7 @@ darkest blue : #00296b
 }
 
 body{
-    min-height: 200vh;
+    min-height: 100vh;
     background-color:#ffd500;
     /*display to flex and direction is column to let elements shows under each other*/
     display: flex;
@@ -241,8 +241,20 @@ main{
     background-color: rgb(255,213,0, .4);
 }
 
+/*Video about green energy*/
+#green-enery-video{
+    width: 95%;
+    height: 450px;
+    margin: 5px auto;
+    text-align: center;
+    border: 1px solid #00509d;
+}
 
-
+#green-enery-video div > iframe{
+    border: 5px solid #fdc500;
+    width: 95%;
+    height: 350px;
+}
 /*Styling footer*/
 footer{
     /*Same background colr as header ~ it may havedifferent color in future styling*/
@@ -344,6 +356,7 @@ footer{
         gap: 10px;
         flex-direction: flex-start;
     }
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -412,5 +425,16 @@ footer{
         position: absolute;
         bottom: 10%;
         left: 35%;
+    }
+
+    /*Video about green energy*/
+    #green-enery-video{
+        height: 550px;
+    }
+
+    #green-enery-video div > iframe{
+        border: 5px solid #fdc500;
+        width: 95%;
+        height: 477px;
     }
 }
