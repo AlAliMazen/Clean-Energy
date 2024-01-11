@@ -147,6 +147,7 @@ main{
     position: absolute;
     bottom: 5%;
     left: 5%;
+    font-family: 'Gayathri', sans-serif;
 }
 #home-pg-cover-txt > h1, #home-pg-cover-txt > p{
     font-size: 140%;
@@ -169,15 +170,28 @@ main{
    margin: 5px auto; 
    display: flex;
    flex-direction: column;
+   font-family: 'Gayathri', sans-serif;
 }
 
 .title-center{
     text-align: center;
-    padding-top: .7rem;
 }
 .make-title-bolder{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600
+}
+/*how-it-works section in all sub-pages*/
+#how-it-works{
+    width: 95%;
+    height: 550px;
+    margin: 5px auto;
+    padding: 15px 25px;
+    border: 1px solid red;
+    position: relative;
+}
+.top-bottom-margin{
+    margin-top: .3em;
+    margin-bottom: .3em;
 }
 
 #energy-sources-container{
@@ -221,6 +235,33 @@ main{
     font-size:15px;
     color: #fdc500;
     display: none;
+}
+
+.working-mechanism-container{
+    border: 1px solid #ffd500;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #00509d;
+   
+}
+.solar-img,
+.windturbine-img,
+.hydropower-img{
+    width: 95%;
+    height: 290px;
+}
+.solar-img{
+    background:url(../images/photovoltage-system.jpg) no-repeat center center/cover;
+}
+.windturbine-img{
+    width: 350px;
+    height: 375;
+    background:url(../images/windturbine-engine.jpg) no-repeat center center/cover;
+}
+.hydropower-img{
+    width: 350px;
+    height: 385px;
+    background:url(../images/collab-media.jpg) no-repeat center center/cover;
 }
 
 /*Reasong and application fields*/
