@@ -173,7 +173,7 @@ main{
    font-family: 'Gayathri', sans-serif;
 }
 
-.title-center{
+.title-center,.text-center{
     text-align: center;
 }
 .make-title-bolder{
@@ -186,7 +186,6 @@ main{
     height: 550px;
     margin: 5px auto;
     padding: 15px 25px;
-    border: 1px solid red;
     position: relative;
 }
 .top-bottom-margin{
@@ -222,6 +221,9 @@ main{
 .normal-txt{
     font-size: 14px;
 }
+.descriptioin-txt{
+    font-size: 1em;
+}
 
 .wind-en-circle{
     border:5px solid #00296b
@@ -248,19 +250,19 @@ main{
 .windturbine-img,
 .hydropower-img{
     width: 95%;
-    height: 290px;
+    height: 280px;
 }
 .solar-img{
     background:url(../images/photovoltage-system.jpg) no-repeat center center/cover;
 }
 .windturbine-img{
-    width: 350px;
-    height: 375;
+    width: 95%;
+    height: 375px;
     background:url(../images/windturbine-engine.jpg) no-repeat center center/cover;
 }
 .hydropower-img{
-    width: 350px;
-    height: 385px;
+    width: 95%;
+    height: 375px;
     background:url(../images/collab-media.jpg) no-repeat center center/cover;
 }
 
@@ -419,6 +421,23 @@ footer{
         margin-top: 5px;
         height: 500px;
     }
+
+    /* How it works section*/
+    .descriptioin-txt{
+        font-size: 1.2em;
+    }
+
+    .solar-img,
+    .windturbine-img,
+    .hydropower-img{
+        height: 280px;
+    }
+    .solar-img{
+        height: 285px;
+    }
+    .windturbine-img,.hydropower-img{
+        height: 355px;
+    }
   
 }
 
@@ -507,4 +526,18 @@ footer{
     .fa-square-instagram:hover{
         color: red;
     }
+      /* How it works section*/
+    .descriptioin-txt{
+        font-size: 1.3em;
+    }
+    .solar-img,
+    .windturbine-img,
+    .hydropower-img{
+        height: 355px;
+    }
+    .windturbine-img,
+    .hydropower-img{
+        height:380px;
+    }
+  
 }
