@@ -168,7 +168,7 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 2px;
     flex-grow: 1;
 }
 .source-title{
@@ -177,12 +177,12 @@ main{
 .solar-en-circle,
 .wind-en-circle,
 .hydropower-en-circle{
-    width: 33.33%;
-    height: 70%;
+    width: 33%;
+    height: 80%;
     text-align: center;
     vertical-align: middle;
-    border:5px solid #fdc500;
-    padding:15px ;
+    border: 5px solid #fdc500;
+    padding: 5px;
     padding-top: 25px;
     border-radius: 50%;
     font-size: 10px;   
@@ -208,6 +208,7 @@ main{
 /*Reasong and application fields*/
 #reasons-appliction-fields{
     margin: 5px auto;
+    margin-top: 95px;
     width: 95%;
     height: 500px;
     display: flex;
@@ -227,6 +228,7 @@ main{
     list-style:inside;
     list-style-type: upper-roman;
     font-size: 1.5rem;
+    font-family:'Gayathri', sans-serif; ;
 }
 #reasons-appliction-fields ul li, #application-fields ul li{
     text-align: left;
@@ -241,6 +243,7 @@ main{
     width: 95%;
     height: 450px;
     margin: 5px auto;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -314,7 +317,7 @@ footer{
         text-align: center;
         vertical-align: middle;
         padding:15px ;
-        padding-top: 25px;
+        padding-top: 70px;
         border-radius: 50%;
         position: relative;
     }
@@ -338,18 +341,24 @@ footer{
         display: block;
         position: absolute;
         bottom: 25%;
-        left: 65px;
+        left: 50px;
+        font-family: 'Gayathri', sans-serif;
     }
 
     /*Reasong and application fields*/
     #reasons-appliction-fields{
+        margin-top: 5px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         justify-content: center;
-        height:300px;
+        height:400px;
         gap: 10px;
-        flex-direction: flex-start;
+    }
+
+    /*Clean energy video section*/
+    #green-enery-video {
+        margin-top: 5px;
+        height: 500px;
     }
   
 }
@@ -390,10 +399,7 @@ footer{
     .solar-en-circle,
     .wind-en-circle,
     .hydropower-en-circle{
-        max-width: 33.33%;
-        height: 100%;
-        text-align: center;
-        vertical-align: middle;
+        max-width: 25%;
         padding:35px ;
         padding-top: 55px;
         border-radius: 50%;
@@ -421,16 +427,19 @@ footer{
         bottom: 10%;
         left: 35%;
     }
+    #reasons-appliction-fields{
+        margin-top: 25px;
+    }
 
     /*Video about green energy*/
     #green-enery-video{
-        height: 550px;
+        height: 600px;
     }
 
     #green-enery-video div > iframe{
         border: 5px solid #fdc500;
-        width: 95%;
-        height: 477px;
+        width: 992px;
+        height: 530px;
     }
 
     #social-media-links i:hover{
