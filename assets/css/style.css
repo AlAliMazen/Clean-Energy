@@ -313,6 +313,57 @@ main{
     width: 95%;
     height: 350px;
 }
+
+/*System Componennts*/
+#system-components{
+    width: 95%;
+    height: 1880px;
+    margin: 5px auto;
+    padding: 5px 10px;
+}
+#components-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.photovoltaic-system,
+.thermal-system{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px auto;
+}
+#components-table{
+    font-family: 'Gayathri', sans-serif;
+    line-height: 1.5em;
+}
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+  }
+thead {
+	background-color: #ffd500;
+	color: #00296b;
+	text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+table td {
+    border: 1px solid #00296b;
+    padding: 5px;
+    color: #00296b;
+  }
+
+  /*styling odd and even rows in the body*/
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff ;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgb(255,213,0, .4)
+  }
+
 /*Styling footer*/
 footer{
     /*Same background colr as header ~ it may havedifferent color in future styling*/
@@ -438,6 +489,21 @@ footer{
     .windturbine-img,.hydropower-img{
         height: 355px;
     }
+    /*System Components*/
+    #system-components{
+        height: 1260px;
+    }
+    #components-container{
+        gap: 30px;
+    }
+    .photovoltaic-system,
+    .thermal-system{
+        font-size: 1.8rem;
+    }
+   table td{
+        line-height: 1.6rem;
+        font-size: 1.1rem;
+    }
   
 }
 
@@ -538,6 +604,24 @@ footer{
     .windturbine-img,
     .hydropower-img{
         height:380px;
+    }
+
+     /*System Components*/
+     #system-components{
+        height: 825px;
+    }
+    #components-container{
+        padding: 15px;
+        flex-direction: row;
+        gap: 45px;
+    }
+    .photovoltaic-system,
+    .thermal-system{
+        font-size: 1.8rem;
+    }
+   table td{
+        line-height: 1.6rem;
+        font-size: 1.1rem;
     }
   
 }
