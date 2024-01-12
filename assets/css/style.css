@@ -315,18 +315,26 @@ main{
 }
 
 /*System Componennts*/
-#system-components{
+#system-components,#wind-system-components{
     width: 95%;
     height: 1880px;
     margin: 5px auto;
     padding: 5px 10px;
 }
+#wind-system-components{
+    height: 950px;
+}
+
 #components-container{
     display: flex;
     gap: 10px;
     flex-direction: column;
     justify-content: space-between;
 
+}
+.special-note{
+    color: red;
+    font-weight: 700;
 }
 .photovoltaic-system,
 .thermal-system{
@@ -493,6 +501,10 @@ footer{
     #system-components{
         height: 1260px;
     }
+    #wind-system-components{
+        height: 850px;
+    }
+
     #components-container{
         gap: 30px;
     }
@@ -610,6 +622,10 @@ footer{
      #system-components{
         height: 825px;
     }
+    #wind-system-components{
+        height: 460px;
+    }
+
     #components-container{
         padding: 15px;
         flex-direction: row;
