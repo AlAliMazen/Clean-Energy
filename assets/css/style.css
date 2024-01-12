@@ -180,8 +180,10 @@ main{
     font-size: 1.5rem;
     font-weight: 600
 }
-/*how-it-works section in all sub-pages*/
-#how-it-works{
+/*solar-how-it-works section in all sub-pages*/
+#solar-how-it-works, 
+#wind-how-it-works,
+#hydro-how-it-works{
     width: 95%;
     height: 550px;
     margin: 5px auto;
@@ -291,11 +293,12 @@ main{
     font-size: 1.5rem;
     font-family:'Gayathri', sans-serif; ;
 }
-#reasons-appliction-fields ul li, #application-fields ul li{
+#reasons-appliction-fields ul li,
+ #application-fields ul li{
     text-align: left;
     padding: 5px;
     padding-left:25px;
-    color: #00509d;
+    color: #00296b;
     background-color: rgb(255,213,0, .4);
 }
 
@@ -315,7 +318,7 @@ main{
 }
 
 /*System Componennts*/
-#system-components,
+#solar-system-components,
 #wind-system-components,
 #hydro-system-components{
     width: 95%;
@@ -330,7 +333,7 @@ main{
     height: 1180px;
 }
 
-#components-container{
+#solar-components-container{
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -357,6 +360,7 @@ table {
     border-style: hidden;
   }
 thead {
+    padding: 5px;
 	background-color: #ffd500;
 	color: #00296b;
 	text-transform: uppercase;
@@ -488,8 +492,18 @@ footer{
     }
 
     /* How it works section*/
+    #solar-how-it-works{
+        height: 600px;
+    }
     .descriptioin-txt{
         font-size: 1.2em;
+        padding: 5px 15px;
+    }
+    #wind-components-container,
+    #hydro-components-container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .solar-img,
@@ -504,7 +518,7 @@ footer{
         height: 355px;
     }
     /*System Components*/
-    #system-components{
+    #solar-system-components{
         height: 1260px;
     }
     #wind-system-components{
@@ -514,7 +528,7 @@ footer{
         height: 790px;
     }
     
-    #components-container{
+    #solar-components-container{
         gap: 30px;
     }
     .photovoltaic-system,
@@ -614,6 +628,9 @@ footer{
         color: red;
     }
       /* How it works section*/
+      #wind-how-it-works{
+        height: 600px;
+      }
     .descriptioin-txt{
         font-size: 1.3em;
     }
@@ -628,20 +645,26 @@ footer{
     }
 
      /*System Components*/
-     #system-components{
-        height: 825px;
+     #solar-system-components{
+        height: 775px;
     }
     #wind-system-components{
         height: 460px;
     }
     #hydro-system-components{
-        height: 790px;
+        height: 480px;
     }
 
-    #components-container{
+    #solar-components-container{
         padding: 15px;
         flex-direction: row;
         gap: 45px;
+    }
+    #wind-components-container,
+    #hydro-components-container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .photovoltaic-system,
     .thermal-system{
