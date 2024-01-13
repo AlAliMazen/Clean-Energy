@@ -631,8 +631,13 @@ footer{
     li a{
         vertical-align: middle;
     }
+    li a:hover{
+        vertical-align: middle;
+        border-bottom: 1px solid #00296b;
+    }
     li:hover{
         background-color: #fdc500;
+        border: 1px solid #00296b;
     }
     #clean-energy-sources{
         width: 95%;
