@@ -757,13 +757,13 @@ footer{
     #joinus{
         background-repeat: no-repeat;
         background-position: 35%;
+        position: relative;
+        height: 650px;
     }
 
     #joinus-form{
-        position: relative;
-        left: 350px;
-        
-        
+        position: absolute;
+        left: 65%;
     }
   
 }
