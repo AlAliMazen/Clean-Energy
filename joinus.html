@@ -53,33 +53,37 @@
         <section id="joinus">
             <form id="joinus-form" action="https://formdump.codeinstitute.net/" method="post">
                 <h2>
-                    <i class="fa-solid fa-people-group">
-                        Be part of our team
-                    </i>
+                    <i class="fa-solid fa-people-group"></i>
+                    Be part of our team
                 </h2>
                 <div>
-                    <label for="firstname">Firstname</label>
-                    <input type="text" id="firstname" name="first_name" required>
-                    <br>
-                    <label for="lastname">Lastname</label>
-                    <input type="text" id="lastname" name="last_name" required>
-                    <br>
-                    <label for="emailaddress">Email address</label>
-                    <input type="text" id="emailaddress" name="email_address" required>
+                    <fieldset>
+                        <legend>Your detail</legend>
+                        <label for="firstname">Firstname</label>
+                        <input type="text" id="firstname" name="first_name" required>
+                        <label for="lastname">Lastname</label>
+                        <input type="text" id="lastname" name="last_name" required>
+                        <label for="emailaddress">Email address</label>
+                        <input type="text" id="emailaddress" name="email_address" required>
+                    </fieldset>
                 </div>
                 <div>
-                    <div>
-                        <input type="radio" id="solar" name="clean_energy_form" value="solar">
-                        <label for="solar">Solar Energy</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="wind" name="clean_energy_form" value="wind">
-                        <label for="wind">Wind Energy</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="hydro" name="clean_energy_form" value="hydro">
-                        <label for="hydro">Solar Energy</label>
-                    </div>
+                    <fieldset>
+                        <legend>Energy Source Preference</legend>
+                        <div>
+                            <input type="radio" id="solar" name="clean_energy_form" value="solar">
+                            <label for="solar">Solar Energy</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="wind" name="clean_energy_form" value="wind" checked>
+                            <label for="wind">Wind Energy</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="hydro" name="clean_energy_form" value="hydro">
+                            <label for="hydro">Solar Energy</label>
+                        </div>
+                    </fieldset>
+
                 </div>
                 <button type="submit" class="join-us">Join us</button>
             </form>
@@ -90,23 +94,27 @@
     <footer>
         <!-- Adding social media icons from font aweosome website-->
         <ul id="social-media-links">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit facebook page (open in new page)">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit youtube page (open in new page)">
-                <i class="fa-brands fa-square-youtube"></i>
-            </a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit twitter page (open in new page)">
-                <i class="fa-brands fa-square-twitter"></i>
-            </a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit instagram page (open in new page)">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit facebook page (open in new page)">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit youtube page (open in new page)">
+                    <i class="fa-brands fa-square-youtube"></i>
+                </a></li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit twitter page (open in new page)">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit instagram page (open in new page)">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a></li>
         </ul>
     </footer>
 
     <!--Adding font Awesome-->
-  <script src="https://kit.fontawesome.com/176b15ee89.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/176b15ee89.js" crossorigin="anonymous"></script>
 
 </body>
 
