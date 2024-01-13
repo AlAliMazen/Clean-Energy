@@ -632,10 +632,9 @@ footer{
         vertical-align: middle;
     }
     li a:hover{
-        vertical-align: middle;
-        border-bottom: 1px solid #00296b;
+        background-color: #fdc500;
     }
-    li:hover{
+    #menubar > li:hover{
         background-color: #fdc500;
         border: 1px solid #00296b;
     }
