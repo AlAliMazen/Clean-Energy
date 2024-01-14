@@ -1,10 +1,4 @@
 
-
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
 # Clean-Energy
 🚨**Required** 
 
@@ -29,10 +23,29 @@ following is TODO
 
 Mazen Al Ali 
 
-- [PROJECT NAME](#project-name)
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [Clean-Energy](#clean-energy)
   * [Live Site](#live-site)
   * [Repository](#repository)
   * [Author](#author)
+- [UX](#ux)
+  * [Target Audience](#target-audience)
+  * [Project Goals](#project-goals)
+  * [User Stories](#user-stories)
+    + [Site User Stories](#site-user-stories)
+    + [Website Owner Stories](#website-owner-stories)
+    + [Developer Stories](#developer-stories)
+  * [Design Choices Stories](#design-choices-stories)
+    + [Colors](#colors)
+    + [Typography](#typography)
+    + [Imagery](#imagery)
+    + [Animations and Transitions](#animations-and-transitions)
+  * [Site Structure](#site-structure)
+- [Deployment](#deployment)
+  * [Deploy to GitHub Pages](#deploy-to-github-pages)
+  * [Deploy locally](#deploy-locally)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
   # UX
@@ -104,7 +117,9 @@ following screenshot shows the colour theme with its hex-values
 ### Imagery
 🚀 **merit & beyond**
 
-Explain why you used certain icons and images on your site & tie it back into your target audience
+Based on the topic of clean energy, each image included on the website serves nothing but introduce the visiter to see the applied system on real life projects. Following image indicates without any dout that wind energy is produced using wind turbine which has a tall and high tower with three blades and a rotator installed behind the blades. ![wind-energy-system](assets/images/nicholas-doherty.jpg)
+
+On the other hand, the home page has a hero image which combines solar panels, wind turbines and snow which when melt will cause water flow that is the main stream for hydropower source ![home-page](assets/images/solarpanel-windmils-snow.jpg)
 
 ### Animations and Transitions
 🚀 **merit & beyond**
@@ -160,7 +175,7 @@ Based on the the course content, I applied the following steps to deploy my webs
 Bilding the project and deploying it for public may take several minutes depending on the size of the project. On the main repository page, we can see the **Deployment** section when the project is read to be accessed as a final poduct.
 ![deployment-section](assets/README-imgs/github-deployment-section.png)
 
-### Deploy locally
+## Deploy locally
 
 I commonly use VS Code as my choice of ID. It is the same as the Codeanywhere with the difference that the later runs online using docker im background. 
 
