@@ -116,7 +116,21 @@ Explain why you used certain icons and images on your site & tie it back into yo
 🚀 **merit & beyond**
 
 
-- The clean energy website is built with the idea in mind that the visiter starts totally smoothly by giving a glance about what clean energy is and an where to find its sources, moving to its applications and sum it up by a video about why to move toward clean energy
+- The clean energy website is built with the idea in mind that the visiter starts totally smoothly by giving a glance about what clean energy is and an where to find its sources, moving to its applications and sum it up by a video about why to move toward clean energy.
+
+- The website is a multi-page version with clean-energy as home and landing page. It consists of four other pages; that are, solar, wind, hydro power as they are main types of clean energy forms and a fourth join-us which includes a form where user can enter his/her infos and click the submit button.
+
+- From the main page, user can either choose to head to directly to the other sub-pages using the navigation bar or scroll to see 3 circles which has titles linked to the energy source. ![main-page](assets/README-imgs/clean-energy-home-page.png)
+
+- Pages like Solar, Wind and Hydropower are made up of the same structure. Each page has its own **hero image with cover text** based on the system and two other sections. The first is about the **How it works** and the second is the **System Components**
+![solar-page](assets/README-imgs/clean-energy-solar-page.png)
+
+- Join us page is where user can write his personal information and his/her choices of preferred energy system and click on the submit button.
+![join us page](assets/README-imgs/clean-energy-join-energy.png)
+
+**Note**
+
+From any where in the webiste, user can click on the logo to go back to the home page or scroll down to the footer where there are links to external social media websites including facebook, youtube, X (twitter before) and instagram.
 
 
 # Deployment
