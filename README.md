@@ -43,6 +43,10 @@ UX and why you choose or write what I did is still TODO
 ## Target Audience
 🚀 **merit & beyond**
 
+All who are interested in investing in the green, renewable and sustainable energy resource and need a slight over the systems and the technologies used at very wide scope.
+
+Domestic communiites who want to start investigating about the effectivness of replacingcurrent energy sources which comes from dirty ources including oil, coal or fossils with clean and renewable sources. It helps them drawing a path towards a decision making orientation.
+
 ## Project Goals
 🚀 **merit & beyond**
 
@@ -54,15 +58,19 @@ UX and why you choose or write what I did is still TODO
 ## User Stories
 🚀 **merit & beyond**
 
+**I don't get it here what I should write**
+
 This section lists outs as a X I want Y, so I can Z format. It helps drive out the features you will build.
 
 You can have many kinds of users so feel free to have one section or the subsections listed or more
 
 ### Site User Stories
 🚀 **merit & beyond**
+**I don't get it here what I should write**
 
 ### Website Owner Stories
 🚀 **merit & beyond**
+**I don't get it here what I should write**
 
 ### Developer Stories
 🚀 **merit & beyond**
@@ -73,8 +81,18 @@ You can have many kinds of users so feel free to have one section or the subsect
 ### Colors
 🚀 **merit & beyond**
 
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like [coolors.co](https://coolors.co/)
+- As the website discuss the concept of clean, renewable and sustainable energy resources, I start think of nature and its reneable sources. The first color comes in mind is therefor a green where solar system can be applied and constructued on covering green areas without effecting their fertiity for reuse. The sun has a strong dark and light yellow and this is where it comes to the first color to reflect the solar system page. As the sun is the strongest sources, I decided to make the background and hover effects takes their identity from this color.
+- Wind blows but with no color, this is where the clean and white color comes in making a high contrast for the text above it.
+- As a third color used for fonts and titles, I used the dark and light blue because it reflects the azure color of flowing water and it is also the color of solar panels.
+
+- A combination dark yello, light yellow , dark blue and light blue along with white can be seen in the logo which I designed on canva website.
+
+- The colour pallete can be found on [coolors.co](https://coolors.co/palette/00296b-003f88-00509d-fdc500-ffd500)
+
+following screenshot shows the colour theme with its hex-values
+![used colour](assets/README-imgs/color-palatte.png)
+
+
 
 ### Typography
 🚀 **merit & beyond**
@@ -97,25 +115,38 @@ Explain why you used certain icons and images on your site & tie it back into yo
 ## Site Structure
 🚀 **merit & beyond**
 
-Talk about if the site is 1 page vs multiple pages. Say what loads by default & how to get access to other pages/sections.
 
+- The clean energy website is built with the idea in mind that the visiter starts totally smoothly by giving a glance about what clean energy is and an where to find its sources, moving to its applications and sum it up by a video about why to move toward clean energy
 
 
 # Deployment
 🚨**Required** 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
-
--Enumerate steps and use screenshots to make the instructions are clear.
-
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
-
 ## Deploy to GitHub Pages
 🚨**Required** 
 
-Write out steps you would take an
+Based on the the course content, I applied the following steps to deploy my website to **GitHub Pages**:
 
-## Deploy locally
+1- Log in to GitHub using own credentials (username and password)
+
+2- Head to the desired repository (in my case it is under [Clean-Energy](https://github.com/AlAliMazen/Clean-Energy) )
+
+3- In the menubar click on the **Settings**
+![GitHub Repository Settings](assets/README-imgs/github-depoyment-setting.png)
+
+4- On the left hand side click Pages menu item ![Pages-on-GitHub](assets/README-imgs/github-pages.png)
+
+5- Under **Build and Deployment** you can see **Sources** where you need to choose the option **Deploy from branch**
+
+6- Last but not least under **Branch** choose the **main** branch if it is master and release version of the project.
+![main-branch](assets/README-imgs/github-set-main-branch.png)
+
+7- Finally click on **Save** and GitHub will do the rest.
+
+Bilding the project and deploying it for public may take several minutes depending on the size of the project. On the main repository page, we can see the **Deployment** section when the project is read to be accessed as a final poduct.
+![deployment-section](assets/README-imgs/github-deployment-section.png)
+
+### Deploy locally
 
 I commonly use VS Code as my choice of ID. It is the same as the Codeanywhere with the difference that the later runs online using docker im background. 
 
