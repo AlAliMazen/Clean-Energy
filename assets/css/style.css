@@ -195,50 +195,21 @@ main{
     margin: 15px .3em;
 }
 
-#energy-sources-container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    flex-grow: 1;
-}
+
 .source-title{
-    font-size: 1.2rem;
-}
-.solar-en-circle,
-.wind-en-circle,
-.hydropower-en-circle{
-    width: 33%;
-    height: 80%;
-    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
     vertical-align: middle;
-    border: 5px solid #fdc500;
-    padding: 5px;
-    padding-top: 2rem;
-    border-radius: 50%;
-    font-size: 8px;   
+    margin-top: 45%;
+    line-height: 50%;
+    color: #fdc500;
 }
+
 .normal-txt{
     font-size: 12px;
 }
 .descriptioin-txt{
     font-size: 1em;
-}
-
-.wind-en-circle{
-    border:5px solid #00296b
-}
-
-.hydropower-en-circle{
-    border:5px solid aqua
-}
-.sources-read-more-btn{
-    text-decoration: none;
-    font-size:15px;
-    color: #fdc500;
-    display: none;
 }
 
 .working-mechanism-container{
@@ -257,6 +228,7 @@ main{
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
+    border: 5px solid #fdc500;
 
 }
 
@@ -268,6 +240,35 @@ main{
 }
 .hydropower-bg{
     background:url(../images/collab-media.jpg) no-repeat center center/cover;
+}
+.wrapper-content {
+    margin-top: 20px;
+}
+/* hover state for energy source circles to go light blue */
+.solar-bg:hover, .wind-bg:hover, .hydropower-bg:hover{
+    background: #fdc500;
+}
+
+.show-hover {
+    display: none;
+}
+
+.source-wrapper:hover .show-hover {
+    display: block;
+}
+.read-more-btn {
+    font-size: 20px;
+    color: #00296b;
+    background: white;
+    padding: 2px 5px;
+    border: 2px solid #fdc500;
+    display: none;
+}
+.read-more-btn:hover{
+    color: #fdc500;
+    background: white;
+    padding: 2px 5px;
+    border: 2px solid #00296b;
 }
 
 /*Reasong and application fields*/
