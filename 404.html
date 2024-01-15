@@ -1,3 +1,66 @@
-<h1>Clean Energy</h1>
-<p>404 !</p>
-<p>Page you are looking for doesn't exist</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Energy | 404 Page</title>
+
+    <!--use style block to style it-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            align-items: center;
+            font-family: 'Gayathri', sans-serif;
+        }
+       
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #00296b;
+            text-align: center;
+            padding: 25% 15px;
+            gap: 25px;
+            background: url(assets/images/waldemar.jpg) no-repeat center center/cover;
+        }
+        h1{
+            font-size: 2.5rem;
+            font-weight: bolder;
+        }
+        p{
+            font-size: 2.5rem;
+        }
+        p>a{
+            text-decoration: none;
+            color: #fafafa;
+            padding: 10px;
+        }
+        h1, p{
+            color: #ffd500;
+        }
+        p>a:hover{
+            color: #ffd500;
+            cursor: pointer;
+            border: 2px solid #00296b;
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <main>
+        <h1>404 ! Page Not found</h1>
+        <p>The page you try to visit doesn't exist</p>
+        <p>Go back to <a href="index.html">Clean Energy</a></p>
+    </main>
+
+    
+</body>
+</html>
