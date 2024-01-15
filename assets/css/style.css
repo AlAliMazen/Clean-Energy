@@ -172,7 +172,6 @@ main{
     gap: 20px;
     justify-content: space-between;
     margin: 40px 0;
-    cursor: pointer;
 }
 
 .title-center,.text-center{
@@ -197,12 +196,12 @@ main{
 
 
 .source-title{
-    font-size: 1.5rem;
+    font-size: 4.5rem;
     font-weight: bolder;
-    vertical-align: middle;
+    margin: 5px;
     margin-top: 45%;
     line-height: 50%;
-    color: #fdc500;
+    color: #00296b;
 }
 
 .normal-txt{
@@ -229,6 +228,7 @@ main{
     margin: 0 auto;
     text-align: center;
     border: 5px solid #fdc500;
+    cursor: pointer;
 
 }
 
@@ -255,7 +255,12 @@ main{
 
 .source-wrapper:hover .show-hover {
     display: block;
+    
 }
+.source-wrapper:hover{
+    border: 5px solid #00296b;
+}
+/*
 .read-more-btn {
     font-size: 20px;
     color: #00296b;
@@ -269,7 +274,7 @@ main{
     background: white;
     padding: 2px 5px;
     border: 2px solid #00296b;
-}
+}*/
 
 /*Reasong and application fields*/
 #reasons-appliction-fields{
@@ -661,36 +666,24 @@ footer{
     }
 
     /* Clean Energy sources*/
-    .solar-en-circle,
-    .wind-en-circle,
-    .hydropower-en-circle{
-        max-width: 25%;
-        padding:35px ;
-        padding-top: 55px;
-        border-radius: 50%;
-        position: relative;
+    .energy-sources {
+        flex-direction: row;
     }
-    .solar-en-circle{
-        background: url(../images/chelsea-wvusc5m.jpg) no-repeat center center/cover;
+
+    .energy-sources .source-wrapper {
+        width: 300px;
+        height: 300px;
     }
-    .wind-en-circle{
-        background: url(../images/camila-fernandez-leon.jpg) no-repeat center center/cover;
-    }
-    
-    .hydropower-en-circle{
-        background: url(../images/collab-media.jpg) no-repeat center center/cover;
-    }
+
     .source-title{
         font-size: 3.5rem;
+        margin: 50px;
     }
     .normal-txt,.sources-read-more-btn{
         font-size: 2rem;
     }
-    .sources-read-more-btn{
+    .read-more-btn{
         display: block;
-        position: absolute;
-        bottom: 10%;
-        left: 35%;
     }
     #reasons-appliction-fields{
         margin-top: 25px;
