@@ -190,9 +190,23 @@ main{
 #hydro-how-it-works{
     width: 95%;
     margin: 5px auto;
-    padding: 15px 25px;
+    padding: 5px;
     position: relative;
 }
+.photovoltaic-bg{
+    background: url(../images/photovoltage-system.jpg) no-repeat center center/cover;
+    height: 300px;
+}
+.windturbine-bg{
+    background: url(../images/windturbine-engine.jpg) no-repeat center center/cover;
+    height: 400px;
+}
+.hydro-bg{
+    background: url(../images/collab-media.jpg) no-repeat center center/cover;
+    height: 400px;
+}
+
+
 .top-bottom-margin{
     margin: 15px .3em;
 }
@@ -215,12 +229,14 @@ main{
 }
 
 .working-mechanism-container{
+    width: 90%;
     border: 1px solid #ffd500;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 5px;
     background-color: #00509d;
    
 }
+
 .source-wrapper {
     display: flex;
     width: 250px;
@@ -582,17 +598,7 @@ footer{
         justify-content: center;
     }
     
-    .solar-img,
-    .windturbine-img,
-    .hydropower-img{
-        height: 280px;
-    }
-    .solar-img{
-        height: 285px;
-    }
-    .windturbine-img,.hydropower-img{
-        height: 355px;
-    }
+
     
     #solar-components-container{
         gap: 30px;
@@ -694,16 +700,8 @@ footer{
     .descriptioin-txt{
         font-size: 1.3em;
     }
-    .solar-img,
-    .windturbine-img,
-    .hydropower-img{
-        height: 355px;
-    }
-    .windturbine-img,
-    .hydropower-img{
-        height:380px;
-    }
-
+    
+    
      /*System Components*/
      #solar-system-components{
         height: 775px;
