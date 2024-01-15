@@ -1,6 +1,5 @@
 
 # Clean-Energy
-🚨**Required** 
 
 - No doubt that the world suffers under the heavy burden of the the dirty energy and its side effects causing some parts of the world to experince unusual weather change. The Global Warming is just a sign of ho much damage we as investors have done by using the dirty energy resources including oil and coal.
 - Clean-Energy sources offers the alternatives towards a world powered by clean and renewable energy. The sources of the clean energy are at the reach of every country and it application fieds are increasing tremdously. Enjoy reading and inform yourself about the sources available to the whole world and take a deep dive into each source and its components, application fields, the problem it solves and challenges by implementing.
@@ -11,17 +10,14 @@ The website looks as following screenshot done using **am I responsive here** [C
 ![Clean Energy](assets/README-imgs/am-i-responsive.png)
 
 ## Live Site
-🚨**Required** 
 
 - live overview can be shown when cllicking [Clean Energy](https://alalimazen.github.io/Clean-Energy/)
 
 ## Repository
-🚨**Required** 
 
 - Clean Energy website Reposiory is availbe on GitHub under [Clean-Energy](https://github.com/AlAliMazen/Clean-Energy)
 
 ## Author
-🚨**Required** 
 
 Mazen Al Ali 
 
@@ -66,35 +62,18 @@ Domestic communiites who want to start investigating about the effectivness of r
 🚀 **merit & beyond**
 
 1- Clear and immersive overview on the clean energy resources.
+
 2- Applications fields along promlems solved by clean Nergy resouces
+
 3- Challenges to each resources and barriers prevents from implementing.
 
 
 ## User Stories
-🚀 **merit & beyond**
-
-**I don't get it here what I should write**
-
-This section lists outs as a X I want Y, so I can Z format. It helps drive out the features you will build.
-
-You can have many kinds of users so feel free to have one section or the subsections listed or more
-
-### Site User Stories
-🚀 **merit & beyond**
-**I don't get it here what I should write**
-
-### Website Owner Stories
-🚀 **merit & beyond**
-**I don't get it here what I should write**
 
 ### Developer Stories
-🚀 **merit & beyond**
-
-## Design Choices Stories
-🚀 **merit & beyond**
+I tried my best to deploy my knowledge and get the most out of the HTML and CSS. Brain storming new design ideas consumes much time than I though but it helps to deploy and use more than what is being taught in this section. My personal goal is set to use HTML and CSS in the best way possible to convince eomployer who may take a look at this project.
 
 ### Colors
-🚀 **merit & beyond**
 
 - As the website discuss the concept of clean, renewable and sustainable energy resources, I start think of nature and its reneable sources. The first color comes in mind is therefor a green where solar system can be applied and constructued on covering green areas without effecting their fertiity for reuse. The sun has a strong dark and light yellow and this is where it comes to the first color to reflect the solar system page. As the sun is the strongest sources, I decided to make the background and hover effects takes their identity from this color.
 - Wind blows but with no color, this is where the clean and white color comes in making a high contrast for the text above it.
@@ -110,27 +89,22 @@ following screenshot shows the colour theme with its hex-values
 
 
 ### Typography
-🚀 **merit & beyond**
 
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- Clarity of letters, putting a capital i next to a lower case L is always a good test
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+Because this is a website and not a printable document, I have chosen a font which is sans serif, is readable and cause no confusion. The font is imported from Google fonts and it is called Gayathri with weight of 100, 400 and 700. 
+It is found under [Gayathri Font](https://fonts.google.com/specimen/Gayathri?preview.text=IJAl&query=Gayathri)
+
 
 ### Imagery
-🚀 **merit & beyond**
 
 Based on the topic of clean energy, each image included on the website serves nothing but introduce the visiter to see the applied system on real life projects. Following image indicates without any dout that wind energy is produced using wind turbine which has a tall and high tower with three blades and a rotator installed behind the blades. ![wind-energy-system](assets/images/nicholas-doherty.jpg)
 
 On the other hand, the home page has a hero image which combines solar panels, wind turbines and snow which when melt will cause water flow that is the main stream for hydropower source ![home-page](assets/images/solarpanel-windmils-snow.jpg)
 
 ### Animations and Transitions
-🚀 **merit & beyond**
 
-- discuss any special animations or transitions you've included 
-- special hover state effects
+- On the home page when user hover over one of the circles, background color will be chnaged , border color will be changed, mouse cursor will be turned as pointer and a short description for the hovered system will show over.
 
 ## Site Structure and Features
-🚀 **merit & beyond**
 
 
 - The clean energy website is built with the idea in mind that the visiter starts totally smoothly by giving a glance about what clean energy is and an where to find its sources, moving to its applications and sum it up by a video about why to move toward clean energy.
@@ -260,10 +234,8 @@ As a note I need to make it clear that during the development process I commited
 
 
 ## Deployment
-🚨**Required** 
 
 ### Deploy to GitHub Pages
-🚨**Required** 
 
 Based on the the course content, I applied the following steps to deploy my website to **GitHub Pages**:
 
@@ -304,3 +276,112 @@ I managed to clone my GitHub Repo for my project following the steps listed belo
  4. On the left hand side of the VS-Code, you will see the GitHub Fork Icon has synchronised the files and brought them to your local machine. It will ask you to choose a **local repository** to save the cloned files/project.
 
  5. Choose a disred direcotry to save the project and the cloned files will show up in the VS-Code
+
+## Credit
+
+### Content
+
+
+- Iniformation about the clean energy VS dirty energy were gathered from different websites including :
+
+    1- [Renewable Energy: The Clean Facts](https://www.nrdc.org/stories/renewable-energy-clean-facts#sec-whatis)
+
+    2- [Photovoltaic system](https://corporate.enelx.com/en/question-and-answers/how-does-a-photovoltaic-system-work#:~:text=A%20photovoltaic%20system%20is%20a,residential%20and%20industrial%20electricity%20systems.)
+
+    3- [Energy.GOV](https://www.energy.gov/clean-energy)
+
+    4- [United Nations Climate Action](https://www.un.org/en/climatechange/what-is-renewable-energy)
+
+## Media 
+
+- Logo: I used canva website to create the Logo and it can be found [here](https://www.canva.com/design/DAF4IBYE_P0/uZ306JEKznVhesK_tSoRUQ/edit)
+
+- Creating Favicon from the logo is done using [favicon.io](https://favicon.io/favicon-converter/) 
+
+- Fonts are used from Google fonts under [Gayathri Font](https://fonts.google.com/specimen/Gayathri?preview.text=IJAl&query=Gayathri)
+
+- Social media links and icons are from [fontawesome.com](https://fontawesome.com)
+  
+  1- [facebook icon](https://fontawesome.com/icons/square-facebook?f=brands&s=solid)
+
+  2-[youtube icon](https://fontawesome.com/icons/square-youtube?f=brands&s=solid)
+
+  3- [twitter](https://fontawesome.com/icons/square-twitter?f=brands&s=solid)
+
+  4- [Instagram](https://fontawesome.com/icons/square-instagram?f=brands&s=solid)
+
+  5- [people group](https://fontawesome.com/icons/people-group?f=classic&s=solid)
+
+- Photos and background:taken mainly from [unsplash.com](https://unsplash.com/) and [Pexels.com](https://www.pexels.com/)
+
+    1- [Wind turbine surrounded by grass](https://unsplash.com/photos/wind-turbine-surrounded-by-grass-WYGhTLym344?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash%22)
+
+    2- [White electric windmill](https://unsplash.com/photos/white-electic-windmill-pONBhDyOFoM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    3-[Aerial photography of grass field with blue solar panels](https://unsplash.com/photos/aerial-photography-of-grass-field-with-blue-solar-panels-Ilpf2eUPpUE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) 
+
+    4- [Windmills on grass field at daytime](https://unsplash.com/photos/windmills-on-grass-field-at-daytime-4NhqyQeErP8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    5- [blue solar panel](https://unsplash.com/photos/blue-solar-panel-WvusC5M-TM8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    6- [Brown brick house with solar panels on roof](https://unsplash.com/photos/brown-brick-house-with-solar-panels-on-roof-9CalgkSRZb8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    7- [Black and white solar panels](https://unsplash.com/photos/black-and-white-solar-panels-0GbrjL3vZF4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    8- [A large dam with water coming out of it](https://unsplash.com/photos/a-large-dam-with-water-coming-out-of-it-kGocua2hRfQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    9- [White wind turbines during daytime](https://unsplash.com/photos/white-wind-turbines-during-daytime-dXbteDwOUG8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">)
+
+    10- [A car plugged into a charging station on a city street](https://unsplash.com/photos/a-car-plugged-into-a-charging-station-on-a-city-street-rLTjEVGXNBA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    11- [Aerial photography of body of water](https://unsplash.com/photos/aerial-photography-of-body-of-water-w6X7XaolqA0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    12- [gray and white snowfield mountains](https://unsplash.com/photos/gray-and-white-snowfield-mountains-mIwrx5WitFA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    13- [An aerial view of a large solar farm](https://unsplash.com/photos/an-aerial-view-of-a-large-solar-farm-hYfOeNvDXWg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    14- [Snow covered mountain during daytime](https://unsplash.com/photos/snow-covered-mountain-during-daytime-tYo1VYXteAY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    15- [White wind turbine under blue sky during daytime](https://unsplash.com/photos/white-wind-turbine-under-blue-sky-during-daytime-P3Hx5lAZPrY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    16- [Aerial view of ocean shore during daytime](https://unsplash.com/photos/aerial-view-of-ocean-shore-during-daytime-s3ekvsMrALg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    17- [White windmill surrounded by tall tree under blue sky at daytime](https://unsplash.com/photos/white-windmill-surrounded-by-tall-tree-under-blue-sky-at-daytime-36JGULWEsgQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    18- [Black and silver solar panel](https://unsplash.com/photos/black-and-silver-solar-panel-HCha-UHkIg8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    19- [Solar panel under blue sky](https://unsplash.com/photos/solar-panel-under-blue-sky-XGAZzyLzn18?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    20- [Water dam under white and blue skies](https://unsplash.com/photos/water-dam-under-white-and-blue-skies-FUeb2npsblQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+    21- [Solar Panels on Snow With Windmill Under Clear Day Sky
+](https://www.pexels.com/photo/solar-panels-on-snow-with-windmill-under-clear-day-sky-433308/)
+
+    22- [Photography of Factory
+](https://www.pexels.com/photo/photography-of-factory-929385/)
+
+    23- [Black solar panels on green grass field during daytime](https://unsplash.com/photos/black-solar-panels-on-green-grass-field-during-daytime-IwY-27ceRCA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+
+    24- [White and black cross under blue sky during daytime](https://unsplash.com/photos/white-and-black-cross-under-blue-sky-during-daytime-8BjTbT_qWYY?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+
+
+## Code
+
+- Styling header and footer with social media is based on code from [love-running-v3](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) Code institute
+
+- Table styling [How To Style a Table with CSS](https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css)
+
+- List Styling [list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)
+
+- Flex [Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+
+- Box-Shadow[box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+- Emmet shortcuts [Emmet Documentation](https://docs.emmet.io/cheat-sheet/)
+
+- Repository is based on the Code Institute template here [ci-full-template](https://github.com/Code-Institute-Org/ci-full-template)
+
+- Mobile First Concept: [How To Write Mobile-first CSS](https://zellwk.com/blog/how-to-write-mobile-first-css/)
+
+- Steps on creating GitHub 404 Pahe Not Found is based on instruction directly from Git home page [Create custom 404 page](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
