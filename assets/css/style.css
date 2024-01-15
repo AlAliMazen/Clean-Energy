@@ -305,7 +305,7 @@ main{
     background-color: rgb(253, 197, 0, .4);
     text-align: center;
     padding: 5px;
-    list-style:inside;
+    font-family: 'Gayathri', sans-serif;
     list-style-type: disc;
     font-size: 1.5rem;
     
@@ -315,6 +315,8 @@ main{
     text-align: left;
     padding: 5px;
     color: #00296b;
+    list-style-position: outside;
+    margin-left: 36px;
 }
 
 /*Video about green energy*/
