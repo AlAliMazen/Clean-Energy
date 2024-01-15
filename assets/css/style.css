@@ -248,23 +248,25 @@ main{
     background-color: #00509d;
    
 }
-.solar-img,
-.windturbine-img,
-.hydropower-img{
-    width: 95%;
-    height: 280px;
+.source-wrapper {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+
 }
-.solar-img{
+
+.solar-bg{
     background:url(../images/photovoltage-system.jpg) no-repeat center center/cover;
 }
-.windturbine-img{
-    width: 95%;
-    height: 375px;
+.wind-bg{
     background:url(../images/windturbine-engine.jpg) no-repeat center center/cover;
 }
-.hydropower-img{
-    width: 95%;
-    height: 375px;
+.hydropower-bg{
     background:url(../images/collab-media.jpg) no-repeat center center/cover;
 }
 
