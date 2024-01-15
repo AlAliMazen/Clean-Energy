@@ -166,13 +166,13 @@ main{
 }
 
 /* section 2 clean energy forms*/
-#clean-energy-sources{
-   width: 95%;
-   height:250px;
-   margin: 5px auto; 
-   display: flex;
-   flex-direction: column;
-   font-family: 'Gayathri', sans-serif;
+.energy-sources {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 40px 0;
+    cursor: pointer;
 }
 
 .title-center,.text-center{
@@ -192,7 +192,7 @@ main{
     position: relative;
 }
 .top-bottom-margin{
-    margin: 0 .3em;
+    margin: 15px .3em;
 }
 
 #energy-sources-container{
