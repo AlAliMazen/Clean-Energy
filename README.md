@@ -5,8 +5,10 @@
 - No doubt that the world suffers under the heavy burden of the the dirty energy and its side effects causing some parts of the world to experince unusual weather change. The Global Warming is just a sign of ho much damage we as investors have done by using the dirty energy resources including oil and coal.
 - Clean-Energy sources offers the alternatives towards a world powered by clean and renewable energy. The sources of the clean energy are at the reach of every country and it application fieds are increasing tremdously. Enjoy reading and inform yourself about the sources available to the whole world and take a deep dive into each source and its components, application fields, the problem it solves and challenges by implementing.
 
-following is TODO
-- Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
+
+The website looks as following screenshot done using **am I responsive here** [Clean Energy](https://ui.dev/amiresponsive?url=https://alalimazen.github.io/Clean-Energy/index.html)
+
+![Clean Energy](assets/README-imgs/am-i-responsive.png)
 
 ## Live Site
 🚨**Required** 
@@ -127,7 +129,7 @@ On the other hand, the home page has a hero image which combines solar panels, w
 - discuss any special animations or transitions you've included 
 - special hover state effects
 
-## Site Structure
+## Site Structure and Features
 🚀 **merit & beyond**
 
 
@@ -135,23 +137,54 @@ On the other hand, the home page has a hero image which combines solar panels, w
 
 - The website is a multi-page version with clean-energy as home and landing page. It consists of four other pages; that are, solar, wind, hydro power as they are main types of clean energy forms and a fourth join-us which includes a form where user can enter his/her infos and click the submit button.
 
-- From the main page, user can either choose to head to directly to the other sub-pages using the navigation bar or scroll to see 3 circles which has titles linked to the energy source. ![main-page](assets/README-imgs/clean-energy-home-page.png)
+- From the main page, user can either choose to head directly to the other sub-pages using the navigation bar which is completely resonsive to mobile screens or larger screens. Navigation uses hover effect and shows an underlined title for the active page or scroll to see 3 circles which has titles linked to the energy source. ![main-page](assets/README-img/home-page-box-shadow.png)
+
+- The 3 Energy sources presented as circleson the website have hover effects on larger PC or laptops and when user hover over one circle the cursor turn to be a pointer , more text will be shown, the background trun to certain predefined colour and the border gets a drak blue coloured also predefined to give a visual indication that it can be clicked as in the following screen
+![ce-sourcess-circles](assets/README-imgs/cl-circles-hovered.png)
+
+- Moving on visiter will be presentet to two unordered lists explaining why clean energy good is and where it can be applied
+![why-and-where-to-apply-clean-energy](assets/README-imgs/ce-lists.png)
+
+- As last section on the home page, a short video posted by **the Economist** explaining our need to move towards **Clean Energy** in order to avoid the drastic climate changes.
 
 - Pages like Solar, Wind and Hydropower are made up of the same structure. Each page has its own **hero image with cover text** based on the system and two other sections. The first is about the **How it works** and the second is the **System Components**
-![solar-page](assets/README-imgs/clean-energy-solar-page.png)
+![solar-page](assets/README-imgs/ce-solar-energy-page.png)
+
+As we can see from the above screen the table/s have also a box-shadow effect indicating that they are not floating but rather they have their own centered position and border
+
 
 - Join us page is where user can write his personal information and his/her choices of preferred energy system and click on the submit button.
-![join us page](assets/README-imgs/clean-energy-join-energy.png)
+Fields used to collect personal data are defined as required fiedls meaning that user can leave any field empty and submit the form. Moreover the button gets used of the hover effect on PC or laptops screens.
+![join us page](assets/README-imgs/join-us-page-error-submitting.png)
+
+
+
+- The Footer provides external links to social media websites including facebook, youtube, X (twitter before), intsagram regardless where from user views the website. It is worth mentioning that both header and footer have a box-shadow to the bottom and to the top respectively to indicate their dimentions
+
+
+Footer on Desktop: 
+![footer-on-destop](assets/README-imgs/footer-box-shadow.png)
+
+
+Footer on mobile : 
+![footer-on-mobile](assets/README-imgs/footer-on-mobile.png)
+
+
+- Finally the website provides a 404 Page not found mechanism provided by GitHub. The 404 page can be accessed when user types a non-existing page on the website. User will land a custom 404 page where it provides a click link to go back to the clean energy home page as in the following screen.
+
+![404-page-not-found](assets/README-imgs/404-error-page.png)
 
 **Note**
 
-From any where in the webiste, user can click on the logo to go back to the home page or scroll down to the footer where there are links to external social media websites including facebook, youtube, X (twitter before) and instagram.
+From any where in the webiste, user can click on the logo to go back to the home page.
+
+# Testing
 
 
-# Deployment
+## Deployment
 🚨**Required** 
 
-## Deploy to GitHub Pages
+### Deploy to GitHub Pages
 🚨**Required** 
 
 Based on the the course content, I applied the following steps to deploy my website to **GitHub Pages**:
@@ -175,7 +208,7 @@ Based on the the course content, I applied the following steps to deploy my webs
 Bilding the project and deploying it for public may take several minutes depending on the size of the project. On the main repository page, we can see the **Deployment** section when the project is read to be accessed as a final poduct.
 ![deployment-section](assets/README-imgs/github-deployment-section.png)
 
-## Deploy locally
+### Deploy locally
 
 I commonly use VS Code as my choice of ID. It is the same as the Codeanywhere with the difference that the later runs online using docker im background. 
 
