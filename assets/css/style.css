@@ -160,6 +160,9 @@ main{
     line-height: 40px;
     margin: 50px 0;
 }
+#home-pg-cover-txt >p{
+    text-align: left;
+}
 .center-vertically{
     height: 1rem;
     line-height: 1rem;
@@ -279,20 +282,23 @@ main{
     height: 95%;
     margin: 5px auto;
 }
-.reasons-and-applications
-{
+.reasons-and-applications{
+    width: 75%;
+    margin: 5px auto;
+    height: 425px;
+    background-color: rgb(253, 197, 0, .4);
+    text-align: center;
+    padding: 5px;
     list-style:inside;
-    list-style-type: upper-roman;
+    list-style-type: disc;
     font-size: 1.5rem;
-    font-family:'Gayathri', sans-serif; ;
+    
 }
 #reasons-appliction-fields ul li,
  #application-fields ul li{
     text-align: left;
     padding: 5px;
-    padding-left:25px;
     color: #00296b;
-    background-color: rgb(255,213,0, .4);
 }
 
 /*Video about green energy*/
@@ -549,8 +555,10 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height:400px;
         gap: 10px;
+    }
+    .reasons-and-applications{
+        height: 250px;
     }
 
     /*Clean energy video section*/
@@ -636,9 +644,6 @@ footer{
         position: absolute;
         bottom: 25%;
         left: 20%;
-    }
-    .sources-read-more-btn{
-        display: block;
     }
 
     /* Clean Energy sources*/
