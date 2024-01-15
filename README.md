@@ -137,7 +137,8 @@ On the other hand, the home page has a hero image which combines solar panels, w
 
 - The website is a multi-page version with clean-energy as home and landing page. It consists of four other pages; that are, solar, wind, hydro power as they are main types of clean energy forms and a fourth join-us which includes a form where user can enter his/her infos and click the submit button.
 
-- From the main page, user can either choose to head directly to the other sub-pages using the navigation bar which is completely resonsive to mobile screens or larger screens. Navigation uses hover effect and shows an underlined title for the active page or scroll to see 3 circles which has titles linked to the energy source. ![main-page](assets/README-img/home-page-box-shadow.png)
+- From the main page, user can either choose to head directly to the other sub-pages using the navigation bar which is completely resonsive to mobile screens or larger screens. Navigation uses hover effect and shows an underlined title for the active page or scroll to see 3 circles which has titles linked to the energy source. 
+![main-page](assets/README-imgs/home-page-box-shadow.png)
 
 - The 3 Energy sources presented as circleson the website have hover effects on larger PC or laptops and when user hover over one circle the cursor turn to be a pointer , more text will be shown, the background trun to certain predefined colour and the border gets a drak blue coloured also predefined to give a visual indication that it can be clicked as in the following screen
 ![ce-sourcess-circles](assets/README-imgs/cl-circles-hovered.png)
@@ -242,6 +243,20 @@ As a note I need to make it clear that during the development process I commited
 3- Accessiblity: I used the lighthouse tool provided by Google Chrome on all the html pages
 
 - index.html
+![accessibility-index](assets/README-imgs/accessibility-index.png)
+
+- solar.html
+![acessibility-solar](assets/README-imgs/accessibility-wind.png)
+
+- wind.html
+![accessibility-wind](assets/README-imgs/accessibility-wind.png)
+
+- hydropower.html
+![accessibility-hydro](assets/README-imgs/accessibility-hydro.png)
+
+- joinus.html
+![accessibility-joinus](assets/README-imgs/accessibility-joinus.png)
+
 
 
 ## Deployment
