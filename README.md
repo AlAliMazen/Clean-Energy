@@ -182,7 +182,7 @@ From any where in the webiste, user can click on the logo to go back to the home
 
 ### While Development
 
-  - While coding the website I mainly used Google Chrome version: Version 120.0.6099.216 (Official Build) (arm64) along with its amazing Development tools which helps debugging and styling every single elements
+  - While coding the website I mainly used Google Chrome Version 120.0.6099.216 (Official Build) (arm64) along with its amazing Development tools which helps debugging and styling every single elements
 
   - I tested the online version deployed on gitHub on different web browser including the following :
 
@@ -224,9 +224,26 @@ As a note I need to make it clear that during the development process I commited
   
 ### Code Validators
 
-1- HTML : I have used [W3C](https://validator.w3.org/) to check my code and all pages are error free labeled as following.
+1- HTML : I have used [W3C](https://validator.w3.org/) to check my code and all pages are labeled as **error free** :
 
-- index.html 
+- index.html ![index-page-validator](assets/README-imgs/html-validator-index.png)
+
+- solar.html ![solar-page-validator](assets/README-imgs/html-validator-solar.png)
+
+- wind.html ![wind-page-validator](assets/README-imgs/html-validator-wind.png)
+
+- hydro.html ![hydro-page-validator](assets/README-imgs/html-validator-hydropower.png)
+
+- joinus.html ![joinus-page-validator](assets/README-imgs/html-validator-joinus.png)
+
+2- CSS: I have use [W3.org](https://jigsaw.w3.org/css-validator/) as recommended by Code Institute to check my website style code and it shows no errors:
+![css-style-validator](assets/README-imgs/css-style-validator.png)
+
+3- Accessiblity: I used the lighthouse tool provided by Google Chrome on all the html pages
+
+- index.html
+
+
 ## Deployment
 🚨**Required** 
 

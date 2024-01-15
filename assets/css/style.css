@@ -361,7 +361,7 @@ main{
     font-weight: bold;
     margin: 10px auto;
 }
-#components-table{
+.components-table{
     font-family: 'Gayathri', sans-serif;
     line-height: 1.5em;
     box-shadow: 0 0 8px 0 rgb(253 197 0 / 90%);
