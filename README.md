@@ -1,8 +1,8 @@
 
 # Clean-Energy
 
-- No doubt that the world suffers under the heavy burden of the the dirty energy and its side effects causing some parts of the world to experince unusual weather change. The Global Warming is just a sign of ho much damage we as investors have done by using the dirty energy resources including oil and coal.
-- Clean-Energy sources offers the alternatives towards a world powered by clean and renewable energy. The sources of the clean energy are at the reach of every country and it application fieds are increasing tremdously. Enjoy reading and inform yourself about the sources available to the whole world and take a deep dive into each source and its components, application fields, the problem it solves and challenges by implementing.
+- No doubt that the world suffers under the heavy burden of the the dirty energy and its side effects causing some parts of the world to experince unusual weather changes and suffering from fatal consequences. The Global Warming is just a sign of how much damage we as humans have done by using the dirty energy resources including oil and coal.
+- Clean-Energy sources offers the alternatives towards a world powered by clean and renewable energy. The sources of the clean energy are at the reach of every country and its application fieds are increasing tremdously. Enjoy reading and inform yourself about the sources available to the whole world and take a dive into each source and take a look on how it works and its components.
 
 
 The website looks as following screenshot done using **am I responsive here** [Clean Energy](https://ui.dev/amiresponsive?url=https://alalimazen.github.io/Clean-Energy/index.html)
@@ -52,19 +52,16 @@ Mazen Al Ali
 
 
   # UX
-🚀 **merit & beyond**
 
-UX and why you choose or write what I did is still TODO
+The Skeleton of the website was built using Balsamiq Wireframes and it can be found under [Clean Energy Wireframes](assets/wireframes/desktop/Clean_Energy_WF.bmpr)
 
 ## Target Audience
-🚀 **merit & beyond**
 
 All who are interested in investing in the green, renewable and sustainable energy resource and need a slight over the systems and the technologies used at very wide scope.
 
 Domestic communiites who want to start investigating about the effectivness of replacingcurrent energy sources which comes from dirty ources including oil, coal or fossils with clean and renewable sources. It helps them drawing a path towards a decision making orientation.
 
 ## Project Goals
-🚀 **merit & beyond**
 
 1- Clear and immersive overview on the clean energy resources.
 
