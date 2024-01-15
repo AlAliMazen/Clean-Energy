@@ -178,9 +178,55 @@ Footer on mobile :
 
 From any where in the webiste, user can click on the logo to go back to the home page.
 
-# Testing
+## Testing
 
+### While Development
 
+  - While coding the website I mainly used Google Chrome version: Version 120.0.6099.216 (Official Build) (arm64) along with its amazing Development tools which helps debugging and styling every single elements
+
+  - I tested the online version deployed on gitHub on different web browser including the following :
+
+    1- Safari Version 17.2.1 (19617.1.17.11.12)
+    2- FireFox Developer Edition Version 122.0b9 (64-bit)
+    3- Microsoft Edge Version 120.0.2210.133 (Official build) (arm64)
+  
+  - I confirm that the website is responsive and fonts are readable with on the commonly used devices provided by Google Chrome for testing purposes including 
+    
+    1- iPhone SE
+    2- iPhone XR
+    3- iPhone 12 Pro
+    4- iPhone 14 Pro Max
+    5- Pixel 7
+    6- Samsung Galaxy S8+
+    7- Samsun Galaxy S20 Ultra
+    8- iPad Mini
+    9- iPad Air
+    10- iPad Pro
+    11- Galaxy Fold (starting point)
+
+  Website is first developed with mobile-first concept. Then moved to the break point tought in the course.
+
+### Bugs and Known Issues
+
+As a note I need to make it clear that during the development process I commited many Fixes but these are related to the styles and not as last version. Though the following are shown through many version of website development. 
+
+**GitHub Issues are used to track any bugs related to the website** 
+
+- Still unsolved is a bug related to the birder of the button on the join us page form. It is supposed to have a color of #002968 (dark blue), though it shows a white border around the button on real mobile devices including iPhone Pro Max running iOS 17.0.1
+
+- After using the HTML W2C validaor there was an issue caused by the meta attribute
+  
+    meta http-equiv="X-UA-Compatible" content ="IE=7"
+
+    The bug is solved using the value of content IE=edge which will tell the browser to use the latest version availbel of MS Edge to render the content. This Issue is listed on the Issues page on  the Clean-Energy Repository. 
+  Status of this issue is solved.
+
+  
+### Code Validators
+
+1- HTML : I have used [W3C](https://validator.w3.org/) to check my code and all pages are error free labeled as following.
+
+- index.html 
 ## Deployment
 🚨**Required** 
 
