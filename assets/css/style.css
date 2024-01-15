@@ -364,6 +364,7 @@ main{
 #components-table{
     font-family: 'Gayathri', sans-serif;
     line-height: 1.5em;
+    box-shadow: 0 0 8px 0 rgb(253 197 0 / 90%);
 }
 table {
     border-collapse: collapse;
@@ -620,9 +621,6 @@ footer{
 }
 
 @media screen and (min-width: 992px) {
-    header{
-        box-shadow: none;
-    }
     #menubar li{
         padding: 0.5rem 1.5rem;
     }
