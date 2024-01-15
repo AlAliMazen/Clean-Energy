@@ -21,8 +21,7 @@ The website looks as following screenshot done using **am I responsive here** [C
 
 Mazen Al Ali 
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-- [Clean-Energy](#clean-energy)
+-- [Clean-Energy](#clean-energy)
   * [Live Site](#live-site)
   * [Repository](#repository)
   * [Author](#author)
@@ -30,18 +29,24 @@ Mazen Al Ali
   * [Target Audience](#target-audience)
   * [Project Goals](#project-goals)
   * [User Stories](#user-stories)
-    + [Site User Stories](#site-user-stories)
-    + [Website Owner Stories](#website-owner-stories)
     + [Developer Stories](#developer-stories)
-  * [Design Choices Stories](#design-choices-stories)
     + [Colors](#colors)
     + [Typography](#typography)
     + [Imagery](#imagery)
     + [Animations and Transitions](#animations-and-transitions)
-  * [Site Structure](#site-structure)
-- [Deployment](#deployment)
-  * [Deploy to GitHub Pages](#deploy-to-github-pages)
-  * [Deploy locally](#deploy-locally)
+  * [Site Structure and Features](#site-structure-and-features)
+  * [Testing](#testing)
+    + [While Development](#while-development)
+    + [Bugs and Known Issues](#bugs-and-known-issues)
+    + [Code Validators](#code-validators)
+  * [Deployment](#deployment)
+    + [Deploy to GitHub Pages](#deploy-to-github-pages)
+    + [Deploy locally](#deploy-locally)
+  * [Credit](#credit)
+    + [Content](#content)
+    + [Media](#media)
+    + [Code](#code)
+  * [Acknowledgment](#acknowledgment)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -292,7 +297,7 @@ I managed to clone my GitHub Repo for my project following the steps listed belo
 
     4- [United Nations Climate Action](https://www.un.org/en/climatechange/what-is-renewable-energy)
 
-## Media 
+### Media 
 
 - Logo: I used canva website to create the Logo and it can be found [here](https://www.canva.com/design/DAF4IBYE_P0/uZ306JEKznVhesK_tSoRUQ/edit)
 
@@ -365,7 +370,7 @@ I managed to clone my GitHub Repo for my project following the steps listed belo
     24- [White and black cross under blue sky during daytime](https://unsplash.com/photos/white-and-black-cross-under-blue-sky-during-daytime-8BjTbT_qWYY?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
 
 
-## Code
+### Code
 
 - Styling header and footer with social media is based on code from [love-running-v3](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) Code institute
 
@@ -384,4 +389,10 @@ I managed to clone my GitHub Repo for my project following the steps listed belo
 - Mobile First Concept: [How To Write Mobile-first CSS](https://zellwk.com/blog/how-to-write-mobile-first-css/)
 
 - Steps on creating GitHub 404 Pahe Not Found is based on instruction directly from Git home page [Create custom 404 page](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+
+## Acknowledgment
+
+- My mentor, [Malia Havlicek](https://github.com/maliahavlicek), who guides me through her ideas and experience and not to forget best-practice coding styles and principles
+
 
